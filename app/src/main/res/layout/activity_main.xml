@@ -10,20 +10,24 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="183dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="140dp"
         android:text="Kemilly"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_inicio"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_voltar" />
 
     <Button
         android:id="@+id/btn_inicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="151dp"
-        android:layout_marginTop="158dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="169dp"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="85dp"
         android:onClick="abrir_login"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,15 +39,29 @@
         android:id="@+id/btn_voltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="182dp"
-        android:layout_marginEnd="144dp"
-        android:layout_marginBottom="126dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="80dp"
         android:backgroundTint="#F44336"
         android:text="Kemilly"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="109dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/celular" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
