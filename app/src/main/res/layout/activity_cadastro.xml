@@ -15,7 +15,7 @@
         android:layout_marginEnd="115dp"
         android:layout_marginBottom="94dp"
         android:ems="10"
-        android:hint="Digite seu Nome"
+        android:hint="Insira seu Nome"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
